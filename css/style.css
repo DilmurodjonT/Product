@@ -11,6 +11,7 @@
     --text-color-A56: #173A56;
     --bg-color-97A: #02897A;
     --bg-color-FFF: #FFFFFF;
+    --bg-color-F5F5: #f5f5f5;
 }
 .body {
     background-color: var(--bg-color-FFF);
@@ -735,6 +736,127 @@
     cursor: pointer;
   }
 
+  /* start Customer blog */
+
+  .logotep {
+    padding-top: 100px;
+  }
+  .logotep__title {
+    text-align: center;
+  }
+  .logotep__title h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+    margin-bottom: 66px;
+  }
+  .logotep__logo {
+    text-align: center;
+    margin-bottom: 135px;
+  }
+  .logotep__logo img {
+      margin-left: 65px;
+  }
+
+  .Choose {
+    background-color: var(--bg-color-F5F5);
+  }
+  .Choose__title {
+    text-align: center;
+    padding-top: 24px;
+  }
+  .Choose__title h2 {
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+  }
+  .Choose__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 64px;
+    padding-bottom: 75px;
+  }
+  .Choose__card {
+    text-align: center;
+    padding: 35px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  .Choose__card h3 {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .Choose__card p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--text-color-43D);
+  }
+  .marketing__title {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .marketing__title h2 {
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+  }
+  .destop__button {
+    margin-bottom: 126px;
+  }
+  .join {
+    background-color: var(--bg-color-F5F5);
+  }
+  .join__title {
+    text-align: center;
+    padding-top: 35px;
+  }
+  .join__title h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+  }
+  .join__boxs {
+    display: flex;
+    justify-content: center;
+    column-gap: 227px;
+    margin-top: 93px;
+  }
+  .join__box {
+    text-align: center;
+  }
+  .join__box h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--text-color-43D);
+    margin-top: 27px;
+    margin-bottom: 16px;
+  }
+  .join__box p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--text-color-43D);
+  }
+  .join__box strong {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: var(--text-color-43D);
+    margin-top: 12px;
+    padding-bottom: 45px;
+  }
 
 
   @media only screen and (max-width: 910px) {
@@ -830,6 +952,15 @@
     .great__right p {
         font-size: 12px;
         line-height: 20px;
+    }
+    .logotep__logo {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 50px;
+    }
+    .join__boxs {
+        column-gap: 120px;
     }
     .footer__blog ul {
         font-size: 14px;
@@ -1011,6 +1142,27 @@
     .Frequently {
         width: 71%;
     }
+    .logotep__logo {
+        gap: 20px;
+    }
+    .logotep__logo img {
+        width: 60%;
+    }
+    .join__boxs {
+        column-gap: 80px;
+    }
+    .Choose__cards {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+    .Choose__card {
+        width: 60%;
+    }
+    .desktop__text {
+        /* text-align: center; */
+        margin-top: 70px;
+    }
     .footer__blog {
         display: flex;
         flex-direction: column;
@@ -1039,4 +1191,5 @@
     --text-color-4343D: #22343D;
     --bg-color-97A: #02897A;
     --bg-color-FFF: #7d7a7a;
+    --bg-color-F5F5: #22343D;
   }
