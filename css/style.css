@@ -133,7 +133,7 @@
     margin-left: 9px;
 }
 .section__product {
-    padding-bottom: 230px;
+    padding-bottom: 100px;
     /* height: 390px; */
     background-image: url(../imgs/product-bg.png);
     background-size: cover;
@@ -224,6 +224,7 @@
 }
 .marketing__box__left p {
     font-weight: 400;
+    font-size: 16px;
     line-height: 26px;
     color: var(--text-color-43D);
 }
@@ -737,9 +738,7 @@
 
 
   @media only screen and (max-width: 910px) {
-    .container {
-        max-width: 800px;
-    }
+    
     .navigation {
           display: flex;
           justify-content: space-around;
@@ -761,6 +760,7 @@
     .table__cards {
         column-gap: 30px;
         margin-bottom: 80px;
+        justify-content: center;
     }
     .enterprise__title {
         width: 85%;
@@ -801,6 +801,10 @@
     .button {
         padding: 10px 20px;
         font-size: 12px;
+    }
+    .strategies__cards {
+        column-gap: 35px;
+        justify-content: center;
     }
     .strategies__card span {
         font-size: 13px;
@@ -848,9 +852,7 @@
 
 
   @media only screen and (max-width: 760px) {
-    .container {
-        max-width: 600px;
-    }
+
     .navigation {
         display: flex;
         justify-content: space-between;
@@ -938,9 +940,7 @@
         margin-top: 44px;
         margin-bottom: 68px;
     }
-    .strategies {
-        margin-top: 530px;
-    }
+    
     .strategies__cards {
         display: flex;
         flex-direction: column;
@@ -974,7 +974,7 @@
     .boost {
         margin-top: 100px;
         margin-bottom: 104px;
-        margin-left: 65px;
+        margin-left: 48px;
     }
     .table__title {
         width: 70%;
